@@ -27,6 +27,11 @@ docker run -it -p 4000:4000 simple-docker
 ```
 docker run -it -p 4000:4000 -e PORT=1337 simple-docker
 ```
+## Run useful option
+```
+--rm # Remove container when docker stop
+-d Run docker in background
+```
 
 # Stop container runing.
 ```
